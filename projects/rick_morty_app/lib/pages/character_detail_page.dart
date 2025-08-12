@@ -69,7 +69,15 @@ class CharacterDetailPage extends StatelessWidget {
                         const SizedBox(width: 6),
                         Text(
                           '${character.status} - ${character.species}',
-                          style: const TextStyle(color: Colors.white),
+                          style: const TextStyle(
+                            color: Colors.white,
+                            shadows: [
+                              Shadow(
+                                offset: Offset(1.5, 1.6),
+                                blurRadius: 3.0,
+                                color: Colors.black54
+                        )],),
+                          
                         ),
                       ],
                     ),
@@ -84,7 +92,12 @@ class CharacterDetailPage extends StatelessWidget {
                       character.gender,
                       style: const TextStyle(
                         color: Colors.white,
-                        decoration: TextDecoration.underline,
+                        shadows: [
+                          Shadow(
+                            offset: Offset(1.5, 1.6),
+                            blurRadius: 3.0,
+                            color: Colors.black54
+                        )],
                       ),
                     ),
                     const SizedBox(height: 16),
@@ -98,7 +111,12 @@ class CharacterDetailPage extends StatelessWidget {
                       character.origin,
                       style: const TextStyle(
                         color: Colors.white,
-                        decoration: TextDecoration.underline,
+                        shadows: [
+                          Shadow(
+                            offset: Offset(1.5, 1.6),
+                            blurRadius: 3.0,
+                            color: Colors.black54
+                        )],
                       ),
                     ),
                     const SizedBox(height: 16),
@@ -112,7 +130,12 @@ class CharacterDetailPage extends StatelessWidget {
                       character.location,
                       style: const TextStyle(
                         color: Colors.white,
-                        decoration: TextDecoration.underline,
+                        shadows: [
+                          Shadow(
+                            offset: Offset(1.5, 1.6),
+                            blurRadius: 3.0,
+                            color: Colors.black54
+                        )],
                       ),
                     ),
                     const SizedBox(height: 16),
@@ -126,7 +149,12 @@ class CharacterDetailPage extends StatelessWidget {
                       character.firstEpisode,
                       style: const TextStyle(
                         color: Colors.white,
-                        decoration: TextDecoration.underline,
+                        shadows: [
+                          Shadow(
+                            offset: Offset(1.5, 1.6),
+                            blurRadius: 3.0,
+                            color: Colors.black54
+                        )],
                       ),
                     ),
                   ],
