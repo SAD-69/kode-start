@@ -33,7 +33,7 @@ class _CharacterListPageState extends State<CharacterListPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: CustomAppBar(),
-      backgroundColor: Color.fromRGBO(28, 27, 31, 0),
+      backgroundColor: Color.fromRGBO(255, 135, 161, 250),
       body: Column(
         children: [
           Padding(
