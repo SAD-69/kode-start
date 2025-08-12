@@ -2,16 +2,16 @@ import 'package:flutter/material.dart';
 import 'pages/character_list_page.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(const RickyApp());
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+class RickyApp extends StatelessWidget {
+  const RickyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Rick and Morty App',
+      title: 'Rick and Morty API',
       theme: ThemeData(primarySwatch: Colors.blue),
       home: const CharacterListPage(),
     );

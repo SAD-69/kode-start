@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import '../models/character.dart';
 import '../services/api_service.dart';
 import '../widgets/character_card.dart';
+import '../widgets/custom_bar.dart';
 import 'character_detail_page.dart';
 
 class CharacterListPage extends StatefulWidget {
@@ -31,7 +32,8 @@ class _CharacterListPageState extends State<CharacterListPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Rick and Morty')),
+      appBar: CustomAppBar(),
+      backgroundColor: Color.fromRGBO(28, 27, 31, 0),
       body: Column(
         children: [
           Padding(
