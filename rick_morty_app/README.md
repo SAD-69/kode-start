@@ -37,7 +37,7 @@ A Flutter application that displays characters, episodes, and locations from the
 
 - `lib/` - Main application code
 - `models/` - Data models for API responses
-- `screens/` - UI screens
+- `pages/` - UI Pages definition
 - `widgets/` - Reusable widgets
 - `services/` - API service layer
 

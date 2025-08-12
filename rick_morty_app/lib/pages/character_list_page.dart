@@ -39,8 +39,9 @@ class _CharacterListPageState extends State<CharacterListPage> {
           Padding(
             padding: const EdgeInsets.all(8),
             child: TextField(
+              style: TextStyle(color: Colors.white),
               decoration: const InputDecoration(
-                hintText: 'Buscar personagem...',
+                hintText: 'Search character...',
                 border: OutlineInputBorder(),
               ),
               onChanged: searchCharacters,
